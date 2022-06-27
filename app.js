@@ -1,3 +1,14 @@
+/*IDEA INCOMPLETA
+//-------------
+function selecionar() {
+    document.getElementById("").addEventListener("click", function(){
+
+        document.getElementById("").innerHTML =
+        Math.floor(Math.random() * 4);
+
+    })
+}
+*/
 
 //---------------------------Condicional If para opciones-------------------------------------
 //-----------------Eleccion del usuario PIEDRA
