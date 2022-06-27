@@ -1,3 +1,34 @@
+
+//??????
+let cambiaImagen = Array();
+cambiarImagen[0] = "./imagenes/papel.jpeg";
+cambiarImagen[1] = "./imagenes/piedra.jpeg";
+cambiarImagen[2] = "./imagenes/tijeras.jpeg";
+
+
+//no sé si funcione
+mostrarImgRandom = () => {
+    let imagen = Math.floor(Math.random() * 3);
+    switch(imagen){
+        case 0:
+            document.getElementById("").src = "Imagenes/piedra.jpeg";
+            document.getElementById("").value = "0";
+            break;
+        case 1:
+            document.getElementById("").src = "Imagenes/papel.jpeg";
+            document.getElementById("").value = "1";
+            break;
+        case 2:
+            document.getElementById("").src ="Imagenes/tijeras.jpeg";
+            document.getElementById("").value ="2";
+            break;
+        default: alert("something has gone wrong.");
+        break;
+    }
+    return;
+}
+
+
 /*IDEA INCOMPLETA
 //-------------
 function selecionar() {
